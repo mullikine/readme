@@ -1,0 +1,2 @@
+$HOME/scripts/compile-vim
+
