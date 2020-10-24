@@ -11,3 +11,5 @@ cd "$MYGIT/deadsnakes/python3.8"
 
 cd $MYGIT/weechat/weechat
 make -j 8 && sudo make install
+
+cd "$MYGIT/poljar/weechat-matrix-rs"; make install
