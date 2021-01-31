@@ -10,6 +10,9 @@ cd "$MYGIT/deadsnakes/python3.8"
 
 
 cd $MYGIT/weechat/weechat
-make -j 8 && sudo make install
+./autogen.sh
+./configure --prefix=$HOME/local
+make -j 8 && make install
+
 
 cd "$MYGIT/poljar/weechat-matrix-rs"; make install
